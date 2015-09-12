@@ -1,0 +1,334 @@
+{
+  "name": "sondagens",
+  "title": "Sondagens feitas em Portugal entre 2002 e 2011",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "2002",
+      "path": "data\\2002.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 1433,
+      "schema": {
+        "fields": [
+          {
+            "name": "data",
+            "type": "date",
+            "description": "Data de Divulgação"
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": "Tipo"
+          },
+          {
+            "name": "instituto",
+            "type": "string",
+            "description": "Instituto"
+          },
+          {
+            "name": "perc_ps",
+            "type": "number",
+            "description": "PS"
+          },
+          {
+            "name": "perc_psd",
+            "type": "number",
+            "description": "PSD"
+          },
+          {
+            "name": "perc_cdspp",
+            "type": "number",
+            "description": "CDS-PP"
+          },
+          {
+            "name": "perc_cdu",
+            "type": "number",
+            "description": "CDU"
+          },
+          {
+            "name": "perc_be",
+            "type": "number",
+            "description": "BE"
+          },
+          {
+            "name": "outros",
+            "type": "number",
+            "description": "Outros"
+          },
+          {
+            "name": "vantagem",
+            "type": "number",
+            "description": "Vantagem"
+          },
+          {
+            "name": "indecisos",
+            "type": "number",
+            "description": "Indecisos, Outros, Inválidos"
+          },
+          {
+            "name": "margem_erro",
+            "type": "number",
+            "description": "Margem de erro"
+          },
+          {
+            "name": "data_recolha",
+            "type": "date",
+            "description": "Data de Recolha"
+          },
+          {
+            "name": "tecnica",
+            "type": "number",
+            "description": "Nº de Entrevistas / Técnica"
+          }
+        ]
+      }
+    },
+    {
+      "name": "2005",
+      "path": "data\\2005.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 1737,
+      "schema": {
+        "fields": [
+          {
+            "name": "data",
+            "type": "date",
+            "description": "Data de Divulgação"
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": "Tipo"
+          },
+          {
+            "name": "instituto",
+            "type": "string",
+            "description": "Instituto"
+          },
+          {
+            "name": "perc_ps",
+            "type": "number",
+            "description": "PS"
+          },
+          {
+            "name": "perc_psd",
+            "type": "number",
+            "description": "PSD"
+          },
+          {
+            "name": "perc_cdspp",
+            "type": "number",
+            "description": "CDS-PP"
+          },
+          {
+            "name": "perc_cdu",
+            "type": "number",
+            "description": "CDU"
+          },
+          {
+            "name": "perc_be",
+            "type": "number",
+            "description": "BE"
+          },
+          {
+            "name": "outros",
+            "type": "number",
+            "description": "Outros"
+          },
+          {
+            "name": "vantagem",
+            "type": "number",
+            "description": "Vantagem"
+          },
+          {
+            "name": "indecisos",
+            "type": "number",
+            "description": "Indecisos, Outros, Inválidos"
+          },
+          {
+            "name": "margem_erro",
+            "type": "number",
+            "description": "Margem de erro"
+          },
+          {
+            "name": "data_recolha",
+            "type": "date",
+            "description": "Data de Recolha"
+          },
+          {
+            "name": "tecnica",
+            "type": "number",
+            "description": "Nº de Entrevistas / Técnica"
+          }
+        ]
+      }
+    },
+    {
+      "name": "2009",
+      "path": "data\\2009.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 2575,
+      "schema": {
+        "fields": [
+          {
+            "name": "data",
+            "type": "date",
+            "description": "Data de Divulgação"
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": "Tipo"
+          },
+          {
+            "name": "instituto",
+            "type": "string",
+            "description": "Instituto"
+          },
+          {
+            "name": "perc_ps",
+            "type": "number",
+            "description": "PS"
+          },
+          {
+            "name": "perc_psd",
+            "type": "number",
+            "description": "PSD"
+          },
+          {
+            "name": "perc_cdspp",
+            "type": "number",
+            "description": "CDS-PP"
+          },
+          {
+            "name": "perc_cdu",
+            "type": "number",
+            "description": "CDU"
+          },
+          {
+            "name": "perc_be",
+            "type": "number",
+            "description": "BE"
+          },
+          {
+            "name": "outros",
+            "type": "number",
+            "description": "Outros"
+          },
+          {
+            "name": "vantagem",
+            "type": "number",
+            "description": "Vantagem"
+          },
+          {
+            "name": "indecisos",
+            "type": "number",
+            "description": "Indecisos, Outros, Inválidos"
+          },
+          {
+            "name": "margem_erro",
+            "type": "number",
+            "description": "Margem de erro"
+          },
+          {
+            "name": "data_recolha",
+            "type": "date",
+            "description": "Data de Recolha"
+          },
+          {
+            "name": "tecnica",
+            "type": "number",
+            "description": "Nº de Entrevistas / Técnica"
+          }
+        ]
+      }
+    },
+    {
+      "name": "2011",
+      "path": "data\\2011.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 8105,
+      "schema": {
+        "fields": [
+          {
+            "name": "data",
+            "type": "date",
+            "description": "Data de Divulgação"
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": "Tipo"
+          },
+          {
+            "name": "instituto",
+            "type": "string",
+            "description": "Instituto"
+          },
+          {
+            "name": "perc_ps",
+            "type": "number",
+            "description": "PS"
+          },
+          {
+            "name": "perc_psd",
+            "type": "number",
+            "description": "PSD"
+          },
+          {
+            "name": "perc_cdspp",
+            "type": "number",
+            "description": "CDS-PP"
+          },
+          {
+            "name": "perc_cdu",
+            "type": "number",
+            "description": "CDU"
+          },
+          {
+            "name": "perc_be",
+            "type": "number",
+            "description": "BE"
+          },
+          {
+            "name": "outros",
+            "type": "number",
+            "description": "Outros"
+          },
+          {
+            "name": "vantagem",
+            "type": "number",
+            "description": "Vantagem"
+          },
+          {
+            "name": "indecisos",
+            "type": "number",
+            "description": "Indecisos, Outros, Inválidos"
+          },
+          {
+            "name": "margem_erro",
+            "type": "number",
+            "description": "Margem de erro"
+          },
+          {
+            "name": "data_recolha",
+            "type": "date",
+            "description": "Data de Recolha"
+          },
+          {
+            "name": "tecnica",
+            "type": "number",
+            "description": "Nº de Entrevistas / Técnica"
+          }
+        ]
+      }
+    }
+  ],
+  "description": ""
+}
