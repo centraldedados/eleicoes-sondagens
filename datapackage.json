@@ -2,9 +2,90 @@
   "name": "sondagens",
   "title": "Sondagens feitas em Portugal entre 2002 e 2011",
   "homepage": "",
-  "version": "0.1.0",
-  "license": "PDDL-1.0",
+  "version": "0.2.0",
+  "license": "ODbL",
   "resources": [
+    {
+      "name": "1999",
+      "path": "data\\1999.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 630,
+      "schema": {
+        "fields": [
+          {
+            "name": "data",
+            "type": "date",
+            "description": "Data de Divulgação"
+          },
+          {
+            "name": "tipo",
+            "type": "string",
+            "description": "Tipo"
+          },
+          {
+            "name": "instituto",
+            "type": "string",
+            "description": "Instituto"
+          },
+          {
+            "name": "perc_ps",
+            "type": "number",
+            "description": "PS"
+          },
+          {
+            "name": "perc_psd",
+            "type": "number",
+            "description": "PSD"
+          },
+          {
+            "name": "perc_cdspp",
+            "type": "number",
+            "description": "CDS-PP"
+          },
+          {
+            "name": "perc_cdu",
+            "type": "number",
+            "description": "CDU"
+          },
+          {
+            "name": "perc_be",
+            "type": "number",
+            "description": "BE"
+          },
+          {
+            "name": "outros",
+            "type": "number",
+            "description": "Outros"
+          },
+          {
+            "name": "vantagem",
+            "type": "number",
+            "description": "Vantagem"
+          },
+          {
+            "name": "indecisos",
+            "type": "number",
+            "description": "Indecisos, Outros, Inválidos"
+          },
+          {
+            "name": "margem_erro",
+            "type": "number",
+            "description": "Margem de erro"
+          },
+          {
+            "name": "data_recolha",
+            "type": "date",
+            "description": "Data de Recolha"
+          },
+          {
+            "name": "tecnica",
+            "type": "number",
+            "description": "Nº de Entrevistas / Técnica"
+          }
+        ]
+      }
+    },
     {
       "name": "2002",
       "path": "data\\2002.csv",
